@@ -1,0 +1,42 @@
+
+ 
+			 ========================== Port Scanner =========================
+
+Target URL         : iqra.edu.pk
+Target IP Address  : 13.67.90.144
+Port range to scan : 0 - 33
+Scan type          : TCP
+ 
+			 ======================== Ports & Services ======================== 
+
+The service running on port 21 is => ftp : 220 ProFTPD Server (ProFTPD) [13.67.90.144]
+The service running on port 22 is => ssh : SSH-2.0-OpenSSH_7.4
+The service running on port 25 is => smtp : 220 VMIUPlesk.local ESMTP Postfix
+
+
+			 ================================================================== 
+ 
+			 ========================== Port Scanner ==========================
+
+Target URL         : air.edu.pk
+Target IP Address  : 217.79.245.244
+Port range to scan : 0 - 31
+Scan type          : TCP
+ 
+			 ======================== Ports & Services ======================== 
+
+The service running on port 21 is => ftp : 220---------- Welcome to Pure-FTPd [privsep] [TLS] ----------
+
+220-You are user number 1 of 300 allowed.
+
+220-Local time is now 15:58. Server port: 21.
+
+220-This is a private system - No anonymous login
+
+220-IPv6 connections are also welcome on this server.
+
+220 You will be disconnected after 30 minutes of inactivity.
+The service running on port 22 is => ssh : SSH-2.0-OpenSSH_7.4 
+
+
+			 ================================================================== 
