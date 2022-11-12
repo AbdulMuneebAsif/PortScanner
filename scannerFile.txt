@@ -27,15 +27,15 @@ Scan type          : TCP
 
 The service running on port 21 is => ftp : 220---------- Welcome to Pure-FTPd [privsep] [TLS] ----------
 
-220-You are user number 1 of 300 allowed.
+                                           220-You are user number 1 of 300 allowed.
 
-220-Local time is now 15:58. Server port: 21.
+                                           220-Local time is now 15:58. Server port: 21.
 
-220-This is a private system - No anonymous login
+                                           220-This is a private system - No anonymous login
 
-220-IPv6 connections are also welcome on this server.
+                                           220-IPv6 connections are also welcome on this server.
 
-220 You will be disconnected after 30 minutes of inactivity.
+                                           220 You will be disconnected after 30 minutes of inactivity.
 The service running on port 22 is => ssh : SSH-2.0-OpenSSH_7.4 
 
 
