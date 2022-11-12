@@ -2,8 +2,8 @@
  
 			 ========================== Port Scanner =========================
 
-Target URL         : iqra.edu.pk
-Target IP Address  : 13.67.90.144
+Target URL         : I hide the target due to confidential reasons 
+Target IP Address  : I hide the target IP address due to confidential reasons
 Port range to scan : 0 - 33
 Scan type          : TCP
  
@@ -18,8 +18,8 @@ The service running on port 25 is => smtp : 220 VMIUPlesk.local ESMTP Postfix
  
 			 ========================== Port Scanner ==========================
 
-Target URL         : air.edu.pk
-Target IP Address  : 217.79.245.244
+Target URL         : I hide the target due to confidential reasons
+Target IP Address  : I hide the target IP address due to confidential reasons
 Port range to scan : 0 - 31
 Scan type          : TCP
  
