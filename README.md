@@ -23,13 +23,37 @@ This project is a comprehensive port scanner tool that includes both GUI and CLI
     ```
 
 ## Usage
-### GUI Mode
-1. Start the GUI mode by running:
-    ```bash
-    python3 main.py
-    ```
+Sure! Here's the requested portion:
 
-2. Enter the target URL(s), number of ports to scan, and protocol (TCP/UDP).
+## Usage
+
+### Running the Script
+Save the provided code in a file named `main.py`.
+
+Open a terminal or command prompt and navigate to the directory containing `main.py`.
+
+Run the script using Python:
+
+```bash
+python3 main.py
+```
+
+### Choosing the Mode
+When you run the script, you will be prompted to choose between GUI mode and CLI mode:
+- To run in GUI mode, type `gui`.
+- To run in CLI mode, type `cli`.
+
+### Using GUI Mode
+1. Enter your targets in the "Enter Target/s Domain Name or IP" field, separated by commas. Example: `8.8.8.8, 1.1.1.1`
+2. Enter the minimum and maximum port numbers.
+3. Enter the protocol name (tcp/udp).
+4. Click "Start Scan" to begin scanning. The results will be displayed in the GUI and saved in `scannerFile.txt`.
+
+### Using CLI Mode
+1. When prompted, enter your targets separated by commas. Example: `8.8.8.8, 1.1.1.1`
+2. Enter the minimum and maximum port numbers.
+3. Enter the protocol name (tcp/udp).
+4. The script will scan each target and display the results in the command line, and save them in `scannerFile.txt`.
 
 ## Logging
 Logs are stored in `scanner.log` with detailed information about the scanning process, including errors encountered during the scan.
