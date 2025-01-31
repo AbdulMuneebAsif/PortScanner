@@ -24,7 +24,7 @@ def scan(target, port_num, protocolName):
     converted_ip = check_ip(target)
     logging.info(f'Starting scan on {target}')
     update_output(f'Target URL: {target}\nTarget IP Address: {converted_ip}\n\nScanning....\n')
-    update_output('Open Port\t| Services\n')
+    update_output('Open Port\t| Services\t\t| Banner\n')
 
     threads = []
     for port in range(1, port_num + 1):
@@ -63,7 +63,7 @@ def update_output(message):
         output_text.insert(tk.END, message)
         output_text.config(state=tk.DISABLED)
     else:
-        print(message)
+        print(message.expandtabs(15))
 
 # Get Banner Function
 def get_banner(s):
@@ -152,10 +152,13 @@ def start_cli():
 
 if __name__ == "__main__":
     gui_mode = False
-    mode = input("Choose mode (gui/cli): ").lower()
-    if mode == 'gui':
-        start_gui()
-    elif mode == 'cli':
-        start_cli()
-    else:
-        print("Invalid mode! Please choose 'gui' or 'cli'.")
+    while True:
+        mode = input("Choose mode (gui/cli): ").lower()
+        if mode == 'gui':
+            start_gui()
+            break
+        elif mode == 'cli':
+            start_cli()
+            break
+        else:
+            print("Invalid mode! Please choose 'gui' or 'cli'.")
