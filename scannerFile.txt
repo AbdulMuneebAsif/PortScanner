@@ -1,42 +1,14 @@
 
- 
-			 ========================== Port Scanner =========================
 
-Target URL         : I hide the target due to confidential reasons 
-Target IP Address  : I hide the target IP address due to confidential reasons
-Port range to scan : 0 - 33
-Scan type          : TCP
- 
-			 ======================== Ports & Services ======================== 
+============================================
+|         Port Scanner Summary - 127.0.0.1  |
+============================================
+Target URL/IP: 127.0.0.1
+Target IP Address: 127.0.0.1
+Number of Ports Scanned: 32
+Scanned Protocol: TCP
+============================================
+Port	| Service	| banner
+22	| ssh		| SSH-2.0-OpenSSH_9.2p1 Debian-2+deb12u4
+=============================================
 
-The service running on port 21 is => ftp : 220 ProFTPD Server (ProFTPD) [IP Address]
-The service running on port 22 is => ssh : SSH-2.0-OpenSSH_7.4
-The service running on port 25 is => smtp : 220 VMIUPlesk.local ESMTP Postfix
-
-
-			 ================================================================== 
- 
-			 ========================== Port Scanner ==========================
-
-Target URL         : I hide the target due to confidential reasons
-Target IP Address  : I hide the target IP address due to confidential reasons
-Port range to scan : 0 - 31
-Scan type          : TCP
- 
-			 ======================== Ports & Services ======================== 
-
-The service running on port 21 is => ftp : 220---------- Welcome to Pure-FTPd [privsep] [TLS] ----------
-
-                                           220-You are user number 1 of 300 allowed.
-
-                                           220-Local time is now 15:58. Server port: 21.
-
-                                           220-This is a private system - No anonymous login
-
-                                           220-IPv6 connections are also welcome on this server.
-
-                                           220 You will be disconnected after 30 minutes of inactivity.
-The service running on port 22 is => ssh : SSH-2.0-OpenSSH_7.4 
-
-
-			 ================================================================== 
