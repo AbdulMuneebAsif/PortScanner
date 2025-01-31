@@ -1,7 +1,7 @@
 # Port Scanner
 
 ## Description
-This project is a comprehensive port scanner tool that includes both GUI mode. It allows users to scan ports on target URLs or IP addresses, identifies open ports, and retrieves service banners. The tool uses multi-threading for enhanced performance and logs detailed information about the scanning process.
+This project is a comprehensive port scanner tool that includes both GUI and CLI modes. It allows users to scan ports on target URLs or IP addresses, identifies open ports, and retrieves service banners. The tool uses multi-threading for enhanced performance and logs detailed information about the scanning process.
 
 ## Features
 - **GUI Mode**: User-friendly graphical interface for easy operation.
