@@ -21,10 +21,6 @@ This project is a comprehensive port scanner tool that includes both GUI and CLI
     ```bash
     pip install -r requirements.txt
     ```
-
-## Usage
-Sure! Here's the requested portion:
-
 ## Usage
 
 ### Running the Script
